@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background-image: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;    
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 25px;
+    font-family: Cambria;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Cambria;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: Cambria;
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #000;
+    font-size: 17px;
+    font-family: Cambria;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.afternav{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    color: rgba(212, 231, 231, 0.945);
+    text-align: center;
+    position: relative;
+}
+
+.afternav h2{
+    font-family: Cambria;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 6%;
+    letter-spacing: 2px;
+}
+
+.signup{
+    width: 600px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.signup h2{
+    width: 580px;
+    height: 20px;
+    font-family: Cambria;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    background-color: rgba(212, 231, 231, 0.945);
+    border-radius: 10px;
+    margin: 1px;
+    padding: 8px;
+}
+
+.signup input{
+    width: 400px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: 1px solid #ff7200;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Cambria;
+}
+
+.signup input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: rgba(174, 177, 177, 0.945);
+    font-family: Cambria;
+}
+
+.btnn{
+    width: 240px;
+    height: 30px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-family: Cambria;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #122bb8;
+    color: #ff7200;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
