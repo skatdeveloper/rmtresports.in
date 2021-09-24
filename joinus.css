@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background-image: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;    
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 25px;
+    font-family: Cambria;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Cambria;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: Cambria;
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #000;
+    font-size: 17px;
+    font-family: Cambria;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.joinus{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    color: rgba(212, 231, 231, 0.945);
+    position: relative;
+}
+
+.joinus h2{
+    font-family: Cambria;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.joinus h3{
+    font-family: Cambria;
+    font-size: 20px;
+    padding-left: 40px;
+    margin-top: 1%;
+    letter-spacing: 1.5px;
+}
+
+.joinus .icon{
+    width: 1200px;
+    margin-top: 9%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon a{
+    font-size: 175px;
+    color: rgba(212, 231, 231, 0.945);
+    padding-left: 30px;
+}
+
+.a ion-icon{
+    font-style: normal;
+}
+
+.icon a:hover{
+    font-weight: bold;
+    color: #122bb8;
+}
